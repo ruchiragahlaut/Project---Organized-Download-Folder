@@ -17,7 +17,7 @@ function dirCreator(dirpath) {
 }
 let fs = require("fs");
 let path = require("path")
-// mkdir , mkdirSync
+// mkdir , mkdirSync  // commands 
 let input = process.argv.slice(2);
 let dirpath = input[0];
 let orgFilePath = path.join(dirpath, "organizedfiles")
